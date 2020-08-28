@@ -1,4 +1,4 @@
-#Sort Manager - David Trieu
+# Sort Manager - David Trieu
 This project is a program which allows a user to select one of various sorting algorithms presented to them to sort a randomly generated array of integers.
 
 The user is presented with a menu of options to select from. The user can then enter a number corresponding to the option they desire.
