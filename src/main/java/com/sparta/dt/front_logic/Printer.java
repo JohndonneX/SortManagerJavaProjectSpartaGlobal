@@ -50,6 +50,10 @@ public class Printer {
                 System.out.println("Enter random array size: ");
                 int input = sc.nextInt();
                 System.out.println("Size of array set to " + input + ". \n");
+                if (input < 0) {
+                    System.out.println("Array size cannot be lower than 0 \n");
+                    continue;
+                }
                 return input;
             } catch (Exception e) {
                 System.out.println("Please type a valid size. \n");
